@@ -22,4 +22,4 @@ python mainimprovementcolor.py  --only_test True --pretrain 25/model_50.h5
 
 The  training dataset of the gray noisy images is downloaded at https://pan.baidu.com/s/13jDZfayiM-KxLAOVWvFlUA
 The  training dataset of the color noisy images is downloaded at https://pan.baidu.com/s/1cx3ymsWLIT-YIiJRBza24Q
-![RUNOOB 图标](./result/1.png)
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
