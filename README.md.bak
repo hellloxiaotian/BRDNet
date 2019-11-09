@@ -50,18 +50,18 @@ The  training dataset of the color noisy images is downloaded at https://pan.bai
 ###Visual results for color noisy images
 #### Denoising results for one color image from the McMaster dataset with noise level 35: (a) original image/ σ = 35, (b) noisy image/18.62 dB, (c) CBM3D/31.04 dB, (d) FFDNet/31.94dB, and (e) BRDNet/32.25 dB.
 ![RUNOOB 图标](./result/7.png)
-####
-![RUNOOB 图标](./result/7.png)
-
-###Real noisy image denoising
-####
+#### Denoising results for one color image from the Kodak24 dataset with noise level 60:(a) original image/ σ = 60, (b) noisy image/13.45 dB, (c) CBM3D/31.00 dB, (d) FFDNet/31.49 dB, and (e) BRDNet/31.85 dB.
 ![RUNOOB 图标](./result/8.png)
 
-###Complexity and complexity of different methods for image denoising
-####
+###Real noisy image denoising
+####PSNR (dB) results for different methods on real noisy images.
 ![RUNOOB 图标](./result/9.png)
 
-###Running time of different methods on an image different size 
-####
+###Complexity and complexity of different methods for image denoising
+#### Complexity analysis of BRDNet, DnCNN and two DnCNNs.
 ![RUNOOB 图标](./result/10.png)
+
+###Running time of different methods on an image different size 
+####Running time for different methods in denoising images of sizes 256 × 256, 512 × 512, and 1024 × 1024.
+![RUNOOB 图标](./result/11.png)
 
