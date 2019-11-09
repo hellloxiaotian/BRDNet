@@ -1,14 +1,8 @@
 # BRDNet
 ## Image denoising using deep CNN with batch renormalization
 
-##Absract
-### Deep convolutional neural networks (CNNs) have attracted great attention in the field of image denoising. However, there are two drawbacks: (1) It is very difficult to train a deeper CNN for denoising tasks, and (2) most of deeper CNNs suffer from performance saturation. In this paper, we report the design of a novel network called a batch-renormalization denoising network (BRDNet).
-### Specifically, we combine two networks to increase the width of the network, and thus obtain more
-### features. Because batch renormalization is fused into BRDNet, we can address the internal covari-
-### ateshiftandsmallmini-batchproblems. Residuallearningisalsoadoptedinaholisticwaytofacil-
-### itate network training. Dilated convolutions are exploited to extract more information for denois-
-### ing tasks. Extensive experimental results show that BRDNet outperforms state-of-the-art image-
-### denoising methods. The code of BRDNet is accessible at http://www.yongxu.org/lunwen.html.
+## Absract
+### Deep convolutional neural networks (CNNs) have attracted great attention in the field of image denoising. However, there are two drawbacks: (1) It is very difficult to train a deeper CNN for denoising tasks, and (2) most of deeper CNNs suffer from performance saturation. In this paper, we report the design of a novel network called a batch-renormalization denoising network (BRDNet). Specifically, we combine two networks to increase the width of the network, and thus obtain more features. Because batch renormalization is fused into BRDNet, we can address the internal covariate shift and small mini-batchproblems. Residual learning is also adopted in a holistic way to facilitate network training. Dilated convolutions are exploited to extract more information for denoising tasks. Extensive experimental results show that BRDNet outperforms state-of-the-art image denoising methods. The code of BRDNet is accessible at http://www.yongxu.org/lunwen.html.
 
 
 ## Requirements (Keras)
@@ -18,30 +12,26 @@
 ### Opencv
 
 ## Commands
-## Training for gray noisy images
-### train gray noisy image
-### python mainimprovement.py
+### Training for gray noisy images
+#### python mainimprovement.py
 
-## Training for color noisy images
-### train color noisy image
-### python mainimprovement.py
+### Training for color noisy images
+#### python mainimprovement.py
 
-## Test for gray noisy images
-### test gray noisy image with noise level of 25
-### python mainimprovement.py  --only_test True --pretrain 25/model_50.h5 
+### Test for gray noisy images---test gray noisy image with noise level of 25
+#### python mainimprovement.py  --only_test True --pretrain 25/model_50.h5 
 
-## Test for color noisy images
-## test color noisy image with noise level of 25
-## python mainimprovementcolor.py  --only_test True --pretrain 25/model_50.h5 
+### Test for color noisy images---test color noisy image with noise level of 25
+#### python mainimprovementcolor.py  --only_test True --pretrain 25/model_50.h5 
 
-## Training datasets 
-The  training dataset of the gray noisy images is downloaded at https://pan.baidu.com/s/13jDZfayiM-KxLAOVWvFlUA
-The  training dataset of the color noisy images is downloaded at https://pan.baidu.com/s/1cx3ymsWLIT-YIiJRBza24Q
+### Training datasets 
+#### The  training dataset of the gray noisy images is downloaded at https://pan.baidu.com/s/13jDZfayiM-KxLAOVWvFlUA
+#### The  training dataset of the color noisy images is downloaded at https://pan.baidu.com/s/1cx3ymsWLIT-YIiJRBza24Q
 
-## Network architecture
+### Network architecture
 ![RUNOOB 图标](./result/1.png)
 
-## Resluts
+### Resluts
 ### Gaussian gray noisy image denoising
 #### Average PSNR (dB) results of different methods on BSD68 dataset with noise levels of 15, 25 and 50.
 ![RUNOOB 图标](./result/2.png)

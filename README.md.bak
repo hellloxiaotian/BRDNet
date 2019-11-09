@@ -1,5 +1,16 @@
 # BRDNet
 ## Image denoising using deep CNN with batch renormalization
+
+##Absract
+### Deep convolutional neural networks (CNNs) have attracted great attention in the field of image denoising. However, there are two drawbacks: (1) It is very difficult to train a deeper CNN for denoising tasks, and (2) most of deeper CNNs suffer from performance saturation. In this paper, we report the design of a novel network called a batch-renormalization denoising network (BRDNet).
+### Specifically, we combine two networks to increase the width of the network, and thus obtain more
+### features. Because batch renormalization is fused into BRDNet, we can address the internal covari-
+### ateshiftandsmallmini-batchproblems. Residuallearningisalsoadoptedinaholisticwaytofacil-
+### itate network training. Dilated convolutions are exploited to extract more information for denois-
+### ing tasks. Extensive experimental results show that BRDNet outperforms state-of-the-art image-
+### denoising methods. The code of BRDNet is accessible at http://www.yongxu.org/lunwen.html.
+
+
 ## Requirements (Keras)
 ### tensorflow 1.3.0
 ### keras 2.0  
