@@ -1,5 +1,4 @@
-# BRDNet
-## Image denoising using deep CNN with batch renormalization
+# Image denoising using deep CNN with batch renormalization （BRDNet）by Chunwei Tian, Yong Xu and Wangmeng Zuo is publised in Neural Networks, Jan, 2020. 
 
 ## Absract
 ### Deep convolutional neural networks (CNNs) have attracted great attention in the field of image denoising. However, there are two drawbacks: (1) It is very difficult to train a deeper CNN for denoising tasks, and (2) most of deeper CNNs suffer from performance saturation. In this paper, we report the design of a novel network called a batch-renormalization denoising network (BRDNet). Specifically, we combine two networks to increase the width of the network, and thus obtain more features. Because batch renormalization is fused into BRDNet, we can address the internal covariate shift and small mini-batchproblems. Residual learning is also adopted in a holistic way to facilitate network training. Dilated convolutions are exploited to extract more information for denoising tasks. Extensive experimental results show that BRDNet outperforms state-of-the-art image denoising methods. The code of BRDNet is accessible at http://www.yongxu.org/lunwen.html.
@@ -65,4 +64,19 @@
 ### Running time of different methods on an image different size 
 #### Running time for different methods in denoising images of sizes 256 × 256, 512 × 512, and 1024 × 1024.
 ![RUNOOB 图标](./result/11.png)
+
+### If you want to cite this paper, please refer to the following format
+#### Tian C, Xu Y, Zuo W. Image denoising using deep CNN with batch renormalization[J]. Neural Networks, 2020, 121: 461-473.
+#### @article{tian2020image,
+#### title={Image denoising using deep CNN with batch renormalization},
+#### author={Tian, Chunwei and Xu, Yong and Zuo, Wangmeng},
+#### journal={Neural Networks},
+#### volume={121},
+#### pages={461--473},
+#### year={2020},
+#### publisher={Elsevier}
+#### }
+####
+####
+####
 
