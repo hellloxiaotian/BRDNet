@@ -66,8 +66,8 @@
 ![RUNOOB 图标](./result/11.png)
 
 ### If you want to cite this paper, please refer to the following format
-#### Tian C, Xu Y, Zuo W. Image denoising using deep CNN with batch renormalization[J]. Neural Networks, 2020, 121: 461-473.
-#### @article{tian2020image,
+#### 1. Tian C, Xu Y, Zuo W. Image denoising using deep CNN with batch renormalization[J]. Neural Networks, 2020, 121: 461-473.
+#### 2. @article{tian2020image,
 #### title={Image denoising using deep CNN with batch renormalization},
 #### author={Tian, Chunwei and Xu, Yong and Zuo, Wangmeng},
 #### journal={Neural Networks},
