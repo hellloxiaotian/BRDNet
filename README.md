@@ -7,13 +7,13 @@
 
 
 ## Requirements (Keras)
-### tensorflow 1.3.0
-### keras 2.0  
+### Tensorflow 1.3.0
+### Keras 2.0  
 ### Numpy 
 ### Opencv 2
 ### Python 2.7
-### Cudnn 8.0
-### Cuda 7.5
+### Cuda 8.0
+### Cudnn 7.5
 ### Ubuntu 14.04 
 
 ## Commands
