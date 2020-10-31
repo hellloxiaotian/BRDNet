@@ -2,7 +2,6 @@
 
 ### This paper is pushed on home page of the Nueral Networks and BRDNet is collected by ihub in Pengcheng Laboratory. Also, it becomes a ESI highly cited paper. Additionally, it is reported by wechat public accounts at https://mp.weixin.qq.com/s/Jk6PlRBYorLI5FSa5xxOkw and https://mp.weixin.qq.com/s/dSCRx-6QW9bFDYQkDBGdLw.
 
-### This paper is the first paper via enlaring the width of network for addressing image denoising problem. Additionally, it is the first paper by deep learning technique for resolving real noisy image denoising. 
 
 ## Absract
 ### Deep convolutional neural networks (CNNs) have attracted great attention in the field of image denoising. However, there are two drawbacks: (1) It is very difficult to train a deeper CNN for denoising tasks, and (2) most of deeper CNNs suffer from performance saturation. In this paper, we report the design of a novel network called a batch-renormalization denoising network (BRDNet). Specifically, we combine two networks to increase the width of the network, and thus obtain more features. Because batch renormalization is fused into BRDNet, we can address the internal covariate shift and small mini-batchproblems. Residual learning is also adopted in a holistic way to facilitate network training. Dilated convolutions are exploited to extract more information for denoising tasks. Extensive experimental results show that BRDNet outperforms state-of-the-art image denoising methods. The code of BRDNet is accessible at http://www.yongxu.org/lunwen.html.
