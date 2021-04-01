@@ -1,4 +1,4 @@
-## Image denoising using deep CNN with batch renormalization（BRDNet）by Chunwei Tian, Yong Xu and Wangmeng Zuo is publised in Neural Networks, 2020. (https://www.sciencedirect.com/science/article/pii/S0893608019302394) and it is implemented by Keras.
+## Image denoising using deep CNN with batch renormalization（BRDNet）by Chunwei Tian, Yong Xu and Wangmeng Zuo is publised in Neural Networks (IF:5.535), 2020. (https://www.sciencedirect.com/science/article/pii/S0893608019302394) and it is implemented by Keras.
 
 ### This paper is pushed on home page of the Nueral Networks and BRDNet is collected by iHub，which is Chinese largest artificial intelligence platform. Also, it becomes a ESI highly cited paper. Additionally, it is reported by wechat public accounts at https://mp.weixin.qq.com/s/Jk6PlRBYorLI5FSa5xxOkw and https://mp.weixin.qq.com/s/dSCRx-6QW9bFDYQkDBGdLw.
 
